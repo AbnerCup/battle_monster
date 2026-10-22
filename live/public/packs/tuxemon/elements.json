@@ -1,0 +1,236 @@
+{
+ "cosmic": {
+  "name": "Cósmico",
+  "vs": {
+   "earth": 1,
+   "fire": 1,
+   "frost": 1,
+   "heroic": 2,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 1,
+   "normal": 1,
+   "shadow": 0.5,
+   "sky": 1,
+   "venom": 2,
+   "water": 1,
+   "wood": 1
+  }
+ },
+ "earth": {
+  "name": "Tierra",
+  "vs": {
+   "earth": 1,
+   "fire": 2,
+   "frost": 1,
+   "heroic": 1,
+   "lightning": 2,
+   "cosmic": 1,
+   "metal": 1,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 0.5,
+   "venom": 1,
+   "water": 1,
+   "wood": 0.5
+  }
+ },
+ "fire": {
+  "name": "Fuego",
+  "vs": {
+   "earth": 0.5,
+   "fire": 0.5,
+   "frost": 0.5,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 2,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 1,
+   "venom": 2,
+   "water": 0.5,
+   "wood": 2
+  }
+ },
+ "frost": {
+  "name": "Hielo",
+  "vs": {
+   "earth": 2,
+   "fire": 1,
+   "frost": 0.5,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 0.5,
+   "normal": 1,
+   "shadow": 0.5,
+   "sky": 2,
+   "venom": 1,
+   "water": 0.5,
+   "wood": 2
+  }
+ },
+ "heroic": {
+  "name": "Heroico",
+  "vs": {
+   "earth": 1,
+   "fire": 1,
+   "frost": 2,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 0.5,
+   "metal": 1,
+   "normal": 2,
+   "shadow": 2,
+   "sky": 1,
+   "venom": 0.5,
+   "water": 1,
+   "wood": 1
+  }
+ },
+ "lightning": {
+  "name": "Rayo",
+  "vs": {
+   "earth": 0.5,
+   "fire": 1,
+   "frost": 1,
+   "heroic": 1,
+   "lightning": 0.5,
+   "cosmic": 1,
+   "metal": 2,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 2,
+   "venom": 1,
+   "water": 2,
+   "wood": 0.5
+  }
+ },
+ "metal": {
+  "name": "Metal",
+  "vs": {
+   "earth": 2,
+   "fire": 0.5,
+   "frost": 1,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 2,
+   "metal": 0.5,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 1,
+   "venom": 1,
+   "water": 0.5,
+   "wood": 1
+  }
+ },
+ "normal": {
+  "name": "Normal",
+  "vs": {
+   "earth": 1,
+   "fire": 1,
+   "frost": 1,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 0.5,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 1,
+   "venom": 1,
+   "water": 1,
+   "wood": 1
+  }
+ },
+ "shadow": {
+  "name": "Sombra",
+  "vs": {
+   "earth": 0.5,
+   "fire": 1,
+   "frost": 1,
+   "heroic": 0.5,
+   "lightning": 1,
+   "cosmic": 2,
+   "metal": 1,
+   "normal": 0.5,
+   "shadow": 1,
+   "sky": 2,
+   "venom": 1,
+   "water": 1,
+   "wood": 1
+  }
+ },
+ "sky": {
+  "name": "Cielo",
+  "vs": {
+   "earth": 2,
+   "fire": 0.5,
+   "frost": 1,
+   "heroic": 2,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 1,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 1,
+   "venom": 1,
+   "water": 1,
+   "wood": 2
+  }
+ },
+ "venom": {
+  "name": "Veneno",
+  "vs": {
+   "earth": 0.5,
+   "fire": 1,
+   "frost": 1,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 0.5,
+   "normal": 2,
+   "shadow": 1,
+   "sky": 1,
+   "venom": 0.5,
+   "water": 0.5,
+   "wood": 2
+  }
+ },
+ "water": {
+  "name": "Agua",
+  "vs": {
+   "earth": 1,
+   "fire": 2,
+   "frost": 0.5,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 1,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 1,
+   "venom": 1,
+   "water": 0.5,
+   "wood": 0.5
+  }
+ },
+ "wood": {
+  "name": "Madera",
+  "vs": {
+   "earth": 2,
+   "fire": 0.5,
+   "frost": 1,
+   "heroic": 1,
+   "lightning": 1,
+   "cosmic": 1,
+   "metal": 1,
+   "normal": 1,
+   "shadow": 1,
+   "sky": 1,
+   "venom": 0.5,
+   "water": 2,
+   "wood": 0.5
+  }
+ }
+}

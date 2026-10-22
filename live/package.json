@@ -1,0 +1,32 @@
+{
+  "name": "battle-monster-live",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Juego interactivo para TikTok LIVE (TikFinity) con el contenido de Pokémon Survivor Burst",
+  "type": "module",
+  "scripts": {
+    "import": "node tools/import-essentials.mjs",
+    "predev": "node tools/import-essentials.mjs --quiet",
+    "dev": "vite",
+    "prebuild": "node tools/import-essentials.mjs --quiet",
+    "build": "tsc --noEmit && vite build",
+    "start": "node server/serve.mjs",
+    "preview": "node server/serve.mjs",
+    "bridge": "node bridge/tiktok-bridge.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "pack:tuxemon": "python tools/build_pack_tuxemon.py tuxemon"
+  },
+  "dependencies": {
+    "@fontsource/lilita-one": "^5.3.0",
+    "@fontsource/pixelify-sans": "^5.3.0",
+    "phaser": "3.90.0",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.4"
+  }
+}

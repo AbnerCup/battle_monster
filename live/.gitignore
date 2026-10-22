@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.cache/
+*.log
+# Generado desde el juego del repositorio con "npm run import"
+public/packs/essentials/
