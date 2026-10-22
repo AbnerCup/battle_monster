@@ -1,0 +1,843 @@
+﻿#===============================================================================
+# MegaStones
+# Auto-organized by item type.
+#===============================================================================
+
+#-------------------------------
+[VENUSAURITE]
+Name = Venusaurite
+NamePlural = Venusaurites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Venusaur hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CHARIZARDITEX]
+Name = Charizardite X
+NamePlural = Charizardite Xs
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CHARIZARDITEY]
+Name = Charizardite Y
+NamePlural = Charizardite Ys
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Charizard hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[BLASTOISINITE]
+Name = Blastoisinite
+NamePlural = Blastoisinites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Blastoise hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[BEEDRILLITE]
+Name = Beedrillite
+NamePlural = Beedrillites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Beedrill hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[PIDGEOTITE]
+Name = Pidgeotite
+NamePlural = Pidgeotites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[ALAKAZITE]
+Name = Alakazite
+NamePlural = Alakazites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Alakazam hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SLOWBRONITE]
+Name = Slowbronite
+NamePlural = Slowbronites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Slowbro hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GENGARITE]
+Name = Gengarite
+NamePlural = Gengarites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Gengar hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[KANGASKHANITE]
+Name = Kangaskhanite
+NamePlural = Kangaskhanites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Kangaskhan hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[PINSIRITE]
+Name = Pinsirite
+NamePlural = Pinsirites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Pinsir hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GYARADOSITE]
+Name = Gyaradosite
+NamePlural = Gyaradosites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Gyarados hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[AERODACTYLITE]
+Name = Aerodactylite
+NamePlural = Aerodactylites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Aerodactyl hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MEWTWONITEX]
+Name = Mewtwonite X
+NamePlural = Mewtwonite Xs
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MEWTWONITEY]
+Name = Mewtwonite Y
+NamePlural = Mewtwonite Ys
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Mewtwo hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[AMPHAROSITE]
+Name = Ampharosite
+NamePlural = Ampharosites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Ampharos hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[STEELIXITE]
+Name = Steelixite
+NamePlural = Steelixites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Steelix hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SCIZORITE]
+Name = Scizorite
+NamePlural = Scizorites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Scizor hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[HERACRONITE]
+Name = Heracronite
+NamePlural = Heracronites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Heracross hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[HOUNDOOMINITE]
+Name = Houndoominite
+NamePlural = Houndoominites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Houndoom hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[TYRANITARITE]
+Name = Tyranitarite
+NamePlural = Tyranitarites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Tyranitar hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SCEPTILITE]
+Name = Sceptilite
+NamePlural = Sceptilites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Sceptile hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[BLAZIKENITE]
+Name = Blazikenite
+NamePlural = Blazikenites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Blaziken hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SWAMPERTITE]
+Name = Swampertite
+NamePlural = Swampertites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Swampert hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GARDEVOIRITE]
+Name = Gardevoirite
+NamePlural = Gardevoirites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Gardevoir hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SABLENITE]
+Name = Sablenite
+NamePlural = Sablenites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Sableye hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MAWILITE]
+Name = Mawilite
+NamePlural = Mawilites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Mawile hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[AGGRONITE]
+Name = Aggronite
+NamePlural = Aggronites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Aggron hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MEDICHAMITE]
+Name = Medichamite
+NamePlural = Medichamites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Medicham hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MANECTITE]
+Name = Manectite
+NamePlural = Manectites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Manectric hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SHARPEDONITE]
+Name = Sharpedonite
+NamePlural = Sharpedonites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CAMERUPTITE]
+Name = Cameruptite
+NamePlural = Cameruptites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Camerupt hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[ALTARIANITE]
+Name = Altarianite
+NamePlural = Altarianites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Altaria hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[BANETTITE]
+Name = Banettite
+NamePlural = Banettites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Banette hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[ABSOLITE]
+Name = Absolite
+NamePlural = Absolites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Absol hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GLALITITE]
+Name = Glalitite
+NamePlural = Glalitites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Glalie hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SALAMENCITE]
+Name = Salamencite
+NamePlural = Salamencites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Salamence hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[METAGROSSITE]
+Name = Metagrossite
+NamePlural = Metagrossites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Metagross hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LATIASITE]
+Name = Latiasite
+NamePlural = Latiasites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Latias hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LATIOSITE]
+Name = Latiosite
+NamePlural = Latiosites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Latios hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LOPUNNITE]
+Name = Lopunnite
+NamePlural = Lopunnites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Lopunny hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GARCHOMPITE]
+Name = Garchompite
+NamePlural = Garchompites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Garchomp hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LUCARIONITE]
+Name = Lucarionite
+NamePlural = Lucarionites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Lucario hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[ABOMASITE]
+Name = Abomasite
+NamePlural = Abomasites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Abomasnow hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GALLADITE]
+Name = Galladite
+NamePlural = Galladites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Gallade hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[AUDINITE]
+Name = Audinite
+NamePlural = Audinites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Audino hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[DIANCITE]
+Name = Diancite
+NamePlural = Diancites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Diancie hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GIGASTONE]
+Name = Gigastone
+NamePlural = Gigastones
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Giga Stones. Item to be held by a Pokémon capable of Giga Evolution.
+#-------------------------------
+[HEATRANITE]
+Name = Heatranite
+NamePlural = Heatranites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Heatran hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[DARKRANITE]
+Name = Darkranite
+NamePlural = Darkranites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Darkrai hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[ZERAORITE]
+Name = Zeraorite
+NamePlural = Zeraorites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Zeraora hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[RAICHUNITEX]
+Name = Raichunite X
+NamePlural = Raichunite Xs
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Raichu hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[RAICHUNITEY]
+Name = Raichunite Y
+NamePlural = Raichunite Ys
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Raichu hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CHIMECHITE]
+Name = Chimechite
+NamePlural = Chimechites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Chimecho hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[ABSOLITEZ]
+Name = Absolite Z
+NamePlural = Absolite Zs
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Absol hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[STARAPTITE]
+Name = Staraptite
+NamePlural = Staraptites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Staraptor hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GARCHOMPITEZ]
+Name = Garchompite Z
+NamePlural = Garchompite Zs
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Garchomp hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[LUCARIONITEZ]
+Name = Lucarionite Z
+NamePlural = Lucarionite Zs
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Lucario hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GOLURKITE]
+Name = Golurkite
+NamePlural = Golurkites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Golurk hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MEOWSTICITE]
+Name = Meowsticite
+NamePlural = Meowsticites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Meowstic hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CRABOMINITE]
+Name = Crabominite
+NamePlural = Crabominites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Crabominable hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GOLISOPITE]
+Name = Golisopite
+NamePlural = Golisopites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Golisopod hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MAGEARNITE]
+Name = Magearnite
+NamePlural = Magearnites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Magearna hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SCOVILLAINITE]
+Name = Scovillainite
+NamePlural = Scovillainites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Scovillain hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[BAXCALIBRITE]
+Name = Baxcalibrite
+NamePlural = Baxcalibrites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Baxcalibur hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[TATSUGIRINITE]
+Name = Tatsugirinite
+NamePlural = Tatsugirinites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Tatsugiri hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GLIMMORANITE]
+Name = Glimmoranite
+NamePlural = Glimmoranites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Glimmora hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CLEFABLITE]
+Name = Clefablite
+NamePlural = Clefablites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Clefable hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[VICTREEBELITE]
+Name = Victreebelite
+NamePlural = Victreebelites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Victreebel hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[STARMINITE]
+Name = Starminite
+NamePlural = Starminites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Starmie hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[DRAGONINITE]
+Name = Dragoninite
+NamePlural = Dragoninites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Dragonite hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[MEGANIUMITE]
+Name = Meganiumite
+NamePlural = Meganiumites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Meganium hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[FERALIGITE]
+Name = Feraligite
+NamePlural = Feraligites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Feraligatr hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SKARMORITE]
+Name = Skarmorite
+NamePlural = Skarmorites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Skarmory hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[FROSLASSITE]
+Name = Froslassite
+NamePlural = Froslassites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Froslass hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[EMBOARITE]
+Name = Emboarite
+NamePlural = Emboarites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Haven Emboar hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[EXCADRITE]
+Name = Excadrite
+NamePlural = Excadrites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Haven Excadrill hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SCOLIPITE]
+Name = Scolipite
+NamePlural = Scolipites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Scolipede hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[SCRAFTINITE]
+Name = Scraftinite
+NamePlural = Scraftinites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Scrafty hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[EELEKTROSSITE]
+Name = Eelektrossite
+NamePlural = Eelektrossites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Eelektross hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CHANDELURITE]
+Name = Chandelurite
+NamePlural = Chandelurites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Chandelure hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[CHESNAUGHTITE]
+Name = Chesnaughtite
+NamePlural = Chesnaughtites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Chesnaught hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[DELPHOXITE]
+Name = Delphoxite
+NamePlural = Delphoxites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Delphox hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[GRENINJITE]
+Name = Greninjite
+NamePlural = Greninjites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Greninja hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[PYROARITE]
+Name = Pyroarite
+NamePlural = Pyroarites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Pyroar hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[FLOETTITE]
+Name = Floettite
+NamePlural = Floettites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have special Floette hold it to Mega Evolve.
+#-------------------------------
+[MALAMARITE]
+Name = Malamarite
+NamePlural = Malamarites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Malamar hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[BARBARACITE]
+Name = Barbaracite
+NamePlural = Barbaracites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Barbaracle hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[DRAGALGITE]
+Name = Dragalgite
+NamePlural = Dragalgites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Dragalge hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[HAWLUCHANITE]
+Name = Hawluchanite
+NamePlural = Hawluchanites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Hawlucha hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[ZYGARDITE]
+Name = Zygardite
+NamePlural = Zygardites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Complete Forme Zygarde hold it to Mega Evolve.
+#-------------------------------
+[DRAMPANITE]
+Name = Drampanite
+NamePlural = Drampanites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Drampa hold it, and it will be able to Mega Evolve.
+#-------------------------------
+[FALINKSITE]
+Name = Falinksite
+NamePlural = Falinksites
+Pocket = 11
+Price = 0
+BPPrice = 0
+Flags = MegaStone,Fling_80
+Description = One of a variety of mysterious Mega Stones. Have Falinks hold it, and it will be able to Mega Evolve.
+

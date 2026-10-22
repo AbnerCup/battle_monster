@@ -1,0 +1,4 @@
+﻿# Consultez la documentation du wiki pour apprendre à modifier ce fichier.
+#-------------------------------
+[001]   # Game
+Name = Game

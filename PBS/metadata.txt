@@ -1,0 +1,27 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+StartMoney = 3000
+StartItemStorage = POTION
+Home = 3,7,5,8
+StorageCreator = ???
+WildBattleBGM = Battle wild
+TrainerBattleBGM = Battle trainer
+WildVictoryBGM = Battle victory wild
+TrainerVictoryBGM = Battle victory trainer
+SurfBGM = Surfing
+BicycleBGM = Bicycle
+#-------------------------------
+[1]
+TrainerType = HERO
+WalkCharset = Ace_Trainer_M
+RunCharset = Ace_Trainer_M
+CycleCharset = Ace_Trainer_M
+SurfCharset = Ace_Trainer_M
+DiveCharset = Ace_Trainer_M
+FishCharset = Ace_Trainer_M
+SurfFishCharset = Ace_Trainer_M
+WalkShopCharset = Ace_Trainer_M
+RunShopCharset = Ace_Trainer_M
+WalkWithOutOBagCharset = Ace_Trainer_M
+RunWithOutCharset = Ace_Trainer_M

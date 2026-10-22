@@ -1,0 +1,655 @@
+﻿#===============================================================================
+# Medicine
+# Auto-organized by item type.
+#===============================================================================
+
+#-------------------------------
+[POTION]
+Name = Potion
+NamePlural = Potions
+Pocket = 2
+Price = 35
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for treating wounds. It can be used to restore 20 HP to a single Pokémon.
+#-------------------------------
+[SUPERPOTION]
+Name = Super Potion
+NamePlural = Super Potions
+Pocket = 2
+Price = 125
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for treating wounds. It can be used to restore 60 HP to a single Pokémon.
+#-------------------------------
+[HYPERPOTION]
+Name = Hyper Potion
+NamePlural = Hyper Potions
+Pocket = 2
+Price = 220
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for treating wounds. It can be used to restore 120 HP to a single Pokémon.
+#-------------------------------
+[MAXPOTION]
+Name = Max Potion
+NamePlural = Max Potions
+Pocket = 2
+Price = 450
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine for treating wounds. It can completely restore the max HP of a single Pokémon.
+#-------------------------------
+[FULLRESTORE]
+Name = Full Restore
+NamePlural = Full Restores
+Pocket = 2
+Price = 610
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that fully restores the HP and heals any status problems of a single Pokémon.
+#-------------------------------
+[SACREDASH]
+Name = Sacred Ash
+NamePlural = Sacred Ashes
+PortionName = bag of Sacred Ash
+PortionNamePlural = bags of Sacred Ash
+Pocket = 2
+Price = 0
+FieldUse = Direct
+Flags = Fling_30
+Description = It revives all fainted Pokémon. In doing so, it also fully restores their HP.
+#-------------------------------
+[AWAKENING]
+Name = Awakening
+NamePlural = Awakenings
+Pocket = 2
+Price = 36
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine. It awakens a Pokémon from the clutches of sleep.
+#-------------------------------
+[ANTIDOTE]
+Name = Antidote
+NamePlural = Antidotes
+Pocket = 2
+Price = 36
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine. It lifts the effect of poison from one Pokémon.
+#-------------------------------
+[BURNHEAL]
+Name = Burn Heal
+NamePlural = Burn Heals
+Pocket = 2
+Price = 36
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine. It heals a single Pokémon that is suffering from a burn.
+#-------------------------------
+[PARALYZEHEAL]
+Name = Paralyze Heal
+NamePlural = Paralyze Heals
+Pocket = 2
+Price = 36
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine. It eliminates paralysis from a single Pokémon.
+#-------------------------------
+[ICEHEAL]
+Name = Ice Heal
+NamePlural = Ice Heals
+Pocket = 2
+Price = 36
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine. It defrosts a Pokémon that has been frozen solid.
+#-------------------------------
+[FULLHEAL]
+Name = Full Heal
+NamePlural = Full Heals
+Pocket = 2
+Price = 125
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A spray-type medicine. It heals all the status problems of a single Pokémon.
+#-------------------------------
+[PEWTERCRUNCHIES]
+Name = Pewter Crunchies
+NamePlural = Pewter Crunchies
+PortionName = bag of Pewter Crunchies
+PortionNamePlural = bags of Pewter Crunchies
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Pewter City's famous crunchy snack. They can be used to heal all status conditions of a single Pokémon.
+#-------------------------------
+[LAVACOOKIE]
+Name = Lava Cookie
+NamePlural = Lava Cookies
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Lavaridge Town's local specialty. It heals all the status problems of one Pokémon.
+#-------------------------------
+[OLDGATEAU]
+Name = Old Gateau
+NamePlural = Old Gateaux
+Pocket = 2
+Price = 125
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Old Chateau's hidden specialty. It heals all the status problems of a single Pokémon.
+#-------------------------------
+[CASTELIACONE]
+Name = Casteliacone
+NamePlural = Casteliacones
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Castelia City's specialty, soft-serve ice cream. It heals all the status problems of a single Pokémon.
+#-------------------------------
+[LUMIOSEGALETTE]
+Name = Lumiose Galette
+NamePlural = Lumiose Galettes
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pokémon.
+#-------------------------------
+[SHALOURSABLE]
+Name = Shalour Sable
+NamePlural = Shalour Sables
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Shalour City's famous shortbread. It can be used once to heal all the status conditions of a Pokémon.
+#-------------------------------
+[BIGMALASADA]
+Name = Big Malasada
+NamePlural = Big Malasadas
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = The Alola region's specialty--fried bread. It can be used once to heal all the status conditions of a Pokémon.
+#-------------------------------
+[REVIVE]
+Name = Revive
+NamePlural = Revives
+Pocket = 2
+Price = 310
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.
+#-------------------------------
+[MAXREVIVE]
+Name = Max Revive
+NamePlural = Max Revives
+Pocket = 2
+Price = 540
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A medicine that revives a fainted Pokémon. It fully restores the Pokémon's HP.
+#-------------------------------
+[BERRYJUICE]
+Name = Berry Juice
+NamePlural = Berry Juices
+PortionName = cup of Berry Juice
+PortionNamePlural = cups of Berry Juice
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A 100% pure juice made of Berries. It restores the HP of one Pokémon by just 20 points.
+#-------------------------------
+[SWEETHEART]
+Name = Sweet Heart
+NamePlural = Sweet Hearts
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Very sweet chocolate. It restores the HP of one Pokémon by only 20 points.
+#-------------------------------
+[FRESHWATER]
+Name = Fresh Water
+NamePlural = Fresh Waters
+PortionName = bottle of Fresh Water
+PortionNamePlural = bottles of Fresh Water
+Pocket = 2
+Price = 60
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Water with high mineral content. It can be used to restore 30 HP to a single Pokémon.
+#-------------------------------
+[SODAPOP]
+Name = Soda Pop
+NamePlural = Soda Pops
+PortionName = bottle of Soda Pop
+PortionNamePlural = bottles of Soda Pop
+Pocket = 2
+Price = 86
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A highly carbonated soda drink. It can be used to restore 50 HP to a single Pokémon.
+#-------------------------------
+[LEMONADE]
+Name = Lemonade
+NamePlural = Lemonades
+PortionName = can of Lemonade
+PortionNamePlural = cans of Lemonade
+Pocket = 2
+Price = 136
+SellPrice = 1000
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A very sweet and refreshing drink. It can be used to restore 70 HP to a single Pokémon.
+#-------------------------------
+[MOOMOOMILK]
+Name = Moomoo Milk
+NamePlural = Moomoo Milks
+PortionName = bottle of Moomoo Milk
+PortionNamePlural = bottles of Moomoo Milk
+Pocket = 2
+Price = 110
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Milk with a very high nutrition content. It restores the HP of one Pokémon by 100 points.
+#-------------------------------
+[ENERGYPOWDER]
+Name = Energy Powder
+NamePlural = Energy Powders
+PortionName = dose of Energy Powder
+PortionNamePlural = doses of Energy Powder
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A very bitter medicinal powder. It can be used to restore 60 HP to a single Pokémon.
+#-------------------------------
+[ENERGYROOT]
+Name = Energy Root
+NamePlural = Energy Roots
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = An extremely bitter medicinal root. It can be used to restore 120 HP to a single Pokémon.
+#-------------------------------
+[HEALPOWDER]
+Name = Heal Powder
+NamePlural = Heal Powders
+PortionName = dose of Heal Powder
+PortionNamePlural = doses of Heal Powder
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A very bitter medicine powder. It heals all the status problems of a single Pokémon.
+#-------------------------------
+[REVIVALHERB]
+Name = Revival Herb
+NamePlural = Revival Herbs
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A very bitter medicinal herb. It revives a fainted Pokémon, fully restoring its HP.
+#-------------------------------
+[MAXHONEY]
+Name = Max Honey
+NamePlural = Max Honeys
+PortionName = comb of Max Honey
+PortionNamePlural = combs of Max Honey
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Honey that Dynamax Vespiquen produces. It has the same effect as a Max Revive.
+#-------------------------------
+[ETHER]
+Name = Ether
+NamePlural = Ethers
+Pocket = 2
+Price = 62
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Fling_30
+Description = It restores the PP of a Pokémon's selected move by a maximum of 10 points.
+#-------------------------------
+[MAXETHER]
+Name = Max Ether
+NamePlural = Max Ethers
+Pocket = 2
+Price = 155
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Fling_30
+Description = It fully restores the PP of a single selected move that has been learned by the target Pokémon.
+#-------------------------------
+[ELIXIR]
+Name = Elixir
+NamePlural = Elixirs
+Pocket = 2
+Price = 185
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = It restores the PP of all the moves learned by the targeted Pokémon by 10 points each.
+#-------------------------------
+[MAXELIXIR]
+Name = Max Elixir
+NamePlural = Max Elixirs
+Pocket = 2
+Price = 275
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = It fully restores the PP of all the moves learned by the targeted Pokémon.
+#-------------------------------
+[PPUP]
+Name = PP Up
+NamePlural = PP Ups
+PortionName = bottle of PP Up
+PortionNamePlural = bottles of PP Up
+Pocket = 2
+Price = 0
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = It slightly raises the maximum PP of a selected move that has been learned by the target Pokémon.
+#-------------------------------
+[PPMAX]
+Name = PP Max
+NamePlural = PP Maxes
+PortionName = bottle of PP Max
+PortionNamePlural = bottles of PP Max
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = It maximally raises the top PP of a selected move that has been learned by the target Pokémon.
+#-------------------------------
+[HPUP]
+Name = HP Up
+NamePlural = HP Ups
+PortionName = bottle of HP Up
+PortionNamePlural = bottles of HP Up
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base HP of a single Pokémon.
+#-------------------------------
+[PROTEIN]
+Name = Protein
+NamePlural = Proteins
+PortionName = bottle of Protein
+PortionNamePlural = bottles of Protein
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Attack stat of a single Pokémon.
+#-------------------------------
+[IRON]
+Name = Iron
+NamePlural = Irons
+PortionName = bottle of Iron
+PortionNamePlural = bottles of Iron
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Defense stat of a single Pokémon.
+#-------------------------------
+[CALCIUM]
+Name = Calcium
+NamePlural = Calciums
+PortionName = bottle of Calcium
+PortionNamePlural = bottles of Calcium
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Sp. Atk (Special Attack) stat of a single Pokémon.
+#-------------------------------
+[ZINC]
+Name = Zinc
+NamePlural = Zincs
+PortionName = bottle of Zinc
+PortionNamePlural = bottles of Zinc
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Sp. Def (Special Defense) stat of a single Pokémon.
+#-------------------------------
+[CARBOS]
+Name = Carbos
+NamePlural = Carbos
+PortionName = bottle of Carbos
+PortionNamePlural = bottles of Carbos
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = A nutritious drink for Pokémon. It raises the base Speed stat of a single Pokémon.
+#-------------------------------
+[HEALTHMOCHI]
+Name = Health Mochi
+NamePlural = Health Mochi
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's HP stat.
+#-------------------------------
+[MUSCLEMOCHI]
+Name = Muscle Mochi
+NamePlural = Muscle Mochi
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Attack stat.
+#-------------------------------
+[RESISTMOCHI]
+Name = Resist Mochi
+NamePlural = Resist Mochi
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Defense stat.
+#-------------------------------
+[GENIUSMOCHI]
+Name = Genius Mochi
+NamePlural = Genius Mochi
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Atk stat.
+#-------------------------------
+[CLEVERMOCHI]
+Name = Clever Mochi
+NamePlural = Clever Mochi
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Def stat.
+#-------------------------------
+[SWIFTMOCHI]
+Name = Swift Mochi
+NamePlural = Swift Mochi
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Speed stat.
+#-------------------------------
+[FRESHSTARTMOCHI]
+Name = Fresh-Start Mochi
+NamePlural = Fresh-Start Mochi
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It causes a Pokémon to lose all its base points.
+#-------------------------------
+[MAXMOCHIIV]
+Name = Max Mochi IV
+NamePlural = Max Mochi IV
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A bundle of six distinctly colored feathers. Increases each base stat of a Pokémon by 31 point.
+#-------------------------------
+[HEALTHWING]
+Name = Health Wing
+NamePlural = Health Wings
+Pocket = 2
+Price = 28
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base HP of a single Pokémon.
+#-------------------------------
+[MUSCLEWING]
+Name = Muscle Wing
+NamePlural = Muscle Wings
+Pocket = 2
+Price = 28
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Attack stat of a single Pokémon.
+#-------------------------------
+[RESISTWING]
+Name = Resist Wing
+NamePlural = Resist Wings
+Pocket = 2
+Price = 28
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Defense stat of a single Pokémon.
+#-------------------------------
+[GENIUSWING]
+Name = Genius Wing
+NamePlural = Genius Wings
+Pocket = 2
+Price = 28
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Sp. Atk stat of a single Pokémon.
+#-------------------------------
+[CLEVERWING]
+Name = Clever Wing
+NamePlural = Clever Wings
+Pocket = 2
+Price = 28
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Sp. Def stat of a single Pokémon.
+#-------------------------------
+[SWIFTWING]
+Name = Swift Wing
+NamePlural = Swift Wings
+Pocket = 2
+Price = 28
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = An item for use on a Pokémon. It slightly increases the base Speed stat of a single Pokémon.
+#-------------------------------
+[HEALTHMOCHIIV]
+Name = Health Mochi IV
+NamePlural = Health Mochi IV
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's HP stat.
+#-------------------------------
+[MUSCLEMOCHIIV]
+Name = Muscle Mochi IV
+NamePlural = Muscle Mochi IV
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Attack stat.
+#-------------------------------
+[RESISTMOCHIIV]
+Name = Resist Mochi IV
+NamePlural = Resist Mochi IV
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Defense stat.
+#-------------------------------
+[GENIUSMOCHIIV]
+Name = Genius Mochi IV
+NamePlural = Genius Mochi IV
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Atk stat.
+#-------------------------------
+[CLEVERMOCHIIV]
+Name = Clever Mochi IV
+NamePlural = Clever Mochi IV
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Sp. Def stat.
+#-------------------------------
+[SWIFTMOCHIIV]
+Name = Swift Mochi IV
+NamePlural = Swift Mochi IV
+Pocket = 2
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_20
+Description = A mochi cake with Berries kneaded into its dough. It increases base points for a Pokémon's Speed stat.
+

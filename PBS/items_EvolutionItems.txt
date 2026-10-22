@@ -1,0 +1,501 @@
+﻿#===============================================================================
+# EvolutionItems
+# Auto-organized by item type.
+#===============================================================================
+
+#-------------------------------
+[FIRESTONE]
+Name = Fire Stone
+NamePlural = Fire Stones
+Pocket = 10
+Price = 160
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
+#-------------------------------
+[THUNDERSTONE]
+Name = Thunder Stone
+NamePlural = Thunder Stones
+Pocket = 10
+Price = 160
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
+#-------------------------------
+[WATERSTONE]
+Name = Water Stone
+NamePlural = Water Stones
+Pocket = 10
+Price = 160
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is a clear, light blue.
+#-------------------------------
+[LEAFSTONE]
+Name = Leaf Stone
+NamePlural = Leaf Stones
+Pocket = 10
+Price = 160
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a leaf pattern.
+#-------------------------------
+[MOONSTONE]
+Name = Moon Stone
+NamePlural = Moon Stones
+Pocket = 10
+Price = 175
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is as black as the night sky.
+#-------------------------------
+[SUNSTONE]
+Name = Sun Stone
+NamePlural = Sun Stones
+Pocket = 10
+Price = 175
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is as red as the sun.
+#-------------------------------
+[DUSKSTONE]
+Name = Dusk Stone
+NamePlural = Dusk Stones
+Pocket = 10
+Price = 190
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar stone that makes certain species of Pokémon evolve. It is as dark as dark can be.
+#-------------------------------
+[DAWNSTONE]
+Name = Dawn Stone
+NamePlural = Dawn Stones
+Pocket = 10
+Price = 190
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar stone that makes certain species of Pokémon evolve. It sparkles like eyes.
+#-------------------------------
+[SHINYSTONE]
+Name = Shiny Stone
+NamePlural = Shiny Stones
+Pocket = 10
+Price = 210
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar stone that makes certain species of Pokémon evolve. It shines with a dazzling light.
+#-------------------------------
+[ICESTONE]
+Name = Ice Stone
+NamePlural = Ice Stones
+Pocket = 10
+Price = 190
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve. It has a snowflake pattern.
+#-------------------------------
+[SWEETAPPLE]
+Name = Sweet Apple
+NamePlural = Sweet Apples
+Pocket = 10
+Price = 0
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally sweet.
+#-------------------------------
+[TARTAPPLE]
+Name = Tart Apple
+NamePlural = Tart Apples
+Pocket = 10
+Price = 0
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally tart.
+#-------------------------------
+[CRACKEDPOT]
+Name = Cracked Pot
+NamePlural = Cracked Pots
+Pocket = 10
+Price = 0
+SellPrice = 800
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar cracked teapot that can make a certain species of Pokémon evolve. It makes delicious tea.
+#-------------------------------
+[CHIPPEDPOT]
+Name = Chipped Pot
+NamePlural = Chipped Pots
+Pocket = 10
+Price = 0
+SellPrice = 19000
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar chipped teapot that can make a certain species of Pokémon evolve. It makes delicious tea.
+#-------------------------------
+[GALARICACUFF]
+Name = Galarica Cuff
+NamePlural = Galarica Cuffs
+Pocket = 10
+Price = 0
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A cuff made from woven-together Galarica Twigs. Giving it to a Galarian Slowpoke would make it very happy.
+#-------------------------------
+[GALARICAWREATH]
+Name = Galarica Wreath
+NamePlural = Galarica Wreaths
+Pocket = 10
+Price = 0
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A wreath made from woven-together Galarica Twigs. A Galarian Slowpoke wearing this would be very happy.
+#-------------------------------
+[METALCOAT]
+Name = Metal Coat
+NamePlural = Metal Coats
+Pocket = 10
+Price = 0
+SellPrice = 1000
+Flags = Fling_30
+Description = An item to be held by a Pokémon. It is a special metallic film that ups the power of Steel-type moves.
+#-------------------------------
+[DEEPSEATOOTH]
+Name = Deep Sea Tooth
+NamePlural = Deep Sea Teeth
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_90
+Description = An item to be held by Clamperl. A fang that gleams a sharp silver, it raises the Sp. Atk stat.
+#-------------------------------
+[DEEPSEASCALE]
+Name = Deep Sea Scale
+NamePlural = Deep Sea Scales
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_30
+Description = An item to be held by Clamperl. A scale that shines a faint pink, it raises the Sp. Def stat.
+#-------------------------------
+[DRAGONSCALE]
+Name = Dragon Scale
+NamePlural = Dragon Scales
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_30
+Description = A thick and tough scale. Dragon-type Pokémon may be holding this item when caught.
+#-------------------------------
+[UPGRADE]
+Name = Upgrade
+NamePlural = Upgrades
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_30
+Description = A transparent device filled with all sorts of data. It was produced by Silph Co.
+#-------------------------------
+[DUBIOUSDISC]
+Name = Dubious Disc
+NamePlural = Dubious Discs
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_50
+Description = A transparent device overflowing with dubious data.  Its producer is unknown.
+#-------------------------------
+[PROTECTOR]
+Name = Protector
+NamePlural = Protectors
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_80
+Description = A protective item of some sort. It is extremely stiff and heavy. It is loved by a certain Pokémon.
+#-------------------------------
+[ELECTIRIZER]
+Name = Electirizer
+NamePlural = Electirizers
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_80
+Description = A box packed with a tremendous amount of electric energy. It is loved by a certain Pokémon.
+#-------------------------------
+[MAGMARIZER]
+Name = Magmarizer
+NamePlural = Magmarizers
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_80
+Description = A box packed with a tremendous amount of magma energy. It is loved by a certain Pokémon.
+#-------------------------------
+[REAPERCLOTH]
+Name = Reaper Cloth
+NamePlural = Reaper Cloths
+PortionName = scrap of Reaper Cloth
+PortionNamePlural = scraps of Reaper Cloth
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_10
+Description = A cloth imbued with horrifyingly strong spiritual energy. It is loved by a certain Pokémon.
+#-------------------------------
+[PRISMSCALE]
+Name = Prism Scale
+NamePlural = Prism Scales
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_30
+Description = A mysterious scale that evolves certain Pokémon. It shines in rainbow colors.
+#-------------------------------
+[WHIPPEDDREAM]
+Name = Whipped Dream
+NamePlural = Whipped Dreams
+PortionName = dollop of Whipped Dream
+PortionNamePlural = dollops of Whipped Dream
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_80
+Description = A soft and sweet treat made of fluffy, puffy and whirled cream. It's loved by a certain Pokémon.
+#-------------------------------
+[SACHET]
+Name = Sachet
+NamePlural = Sachets
+Pocket = 10
+Price = 0
+SellPrice = 1000
+BPPrice = 0
+Flags = Fling_80
+Description = A sachet filled with slightly overwhelming fragrant perfumes. Yet it's loved by a certain Pokémon.
+#-------------------------------
+[STRAWBERRYSWEET]
+Name = Strawberry Sweet
+NamePlural = Strawberry Sweets
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_10
+Description = A strawberry-shaped sweet. When a Milcery holds this, it will spin around happily.
+#-------------------------------
+[LOVESWEET]
+Name = Love Sweet
+NamePlural = Love Sweets
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_10
+Description = A heart-shaped sweet. When a Milcery holds this, it spins around happily.
+#-------------------------------
+[BERRYSWEET]
+Name = Berry Sweet
+NamePlural = Berry Sweets
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_10
+Description = A berry-shaped sweet. When a Milcery holds this, it spins around happily.
+#-------------------------------
+[CLOVERSWEET]
+Name = Clover Sweet
+NamePlural = Clover Sweets
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_10
+Description = A clover-shaped sweet. When a Milcery holds this, it spins around happily.
+#-------------------------------
+[FLOWERSWEET]
+Name = Flower Sweet
+NamePlural = Flower Sweets
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_10
+Description = A flower-shaped sweet. When a Milcery holds this, it spins around happily.
+#-------------------------------
+[STARSWEET]
+Name = Star Sweet
+NamePlural = Star Sweets
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_10
+Description = A star-shaped sweet. When a Milcery holds this, it spins around happily.
+#-------------------------------
+[RIBBONSWEET]
+Name = Ribbon Sweet
+NamePlural = Ribbon Sweets
+Pocket = 10
+Price = 0
+BPPrice = 0
+Flags = Fling_10
+Description = A ribbon-shaped sweet. When a Milcery holds this, it spins around happily.
+#-------------------------------
+[BLACKAUGURITE]
+Name = Black Augurite
+NamePlural = Black Augurites
+Pocket = 10
+Price = 0
+Flags = Fling_30,EvolutionStone
+Description = A glassy black stone that produces a sharp cutting edge when split. It’s loved by a certain Pokémon.
+#-------------------------------
+[PEATBLOCK]
+Name = Peat Block
+NamePlural = Peat Blocks
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30,EvolutionStone
+Description = A block of muddy material that is for fuel. It’s loved by a certain Pokémon.
+#-------------------------------
+[LINKINGCORD]
+Name = Linking Cord
+NamePlural = Linking Cords
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30,EvolutionStone
+Description = A string exuding a mysterious energy of connection. It’s loved by certain Pokémon.
+#-------------------------------
+[AUSPICIOUSARMOR]
+Name = Auspicious Armor
+NamePlural = Auspicious Armors
+PortionName = set of Auspicious Armor
+PortionNamePlural = sets of Auspicious Armor
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar set of armor that can make a certain Pokémon evolve. Auspicious wishes live within it.
+#-------------------------------
+[MALICIOUSARMOR]
+Name = Malicious Armor
+NamePlural = Malicious Armors
+PortionName = set of Malicious Armor
+PortionNamePlural = sets of Malicious Armor
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar set of armor that can make a certain Pokémon evolve. Malicious will lurks within it.
+#-------------------------------
+[SCROLLOFDARKNESS]
+Name = Scroll of Darkness
+NamePlural = Scroll of Darkness
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A scroll that evolves certain Pokémon. Written on it are the true secrets of the path of darkness.
+#-------------------------------
+[SCROLLOFWATERS]
+Name = Scroll of Waters
+NamePlural = Scroll of Waters
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A scroll that evolves certain Pokémon. Written on it are the true secrets of the path of water.
+#-------------------------------
+[LEADERSCREST]
+Name = Leader's Crest
+NamePlural = Leader's Crests
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = Fling_30,KeyItem,EvolutionStone
+Description = A shard of what appears to be an old blade of some sort. It is held only by a head of certain Pokémon group.
+#-------------------------------
+[GIMMIGHOULCOIN]
+Name = Gimmighoul Coin
+NamePlural = Gimmighoul Coins
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = An item that accidentally dropped by a Pokémon. It seems that Gimmighoul treasure and hoard these.
+#-------------------------------
+[SYRUPYAPPLE]
+Name = Syrupy Apple
+NamePlural = Syrupy Apples
+Pocket = 10
+Price = 0
+SellPrice = 550
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.
+#-------------------------------
+[UNREMARKABLETEACUP]
+Name = Unremarkable Teacup
+NamePlural = Unremarkable Teacups
+Pocket = 10
+Price = 0
+SellPrice = 400
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar cracked teacup that can make a certain species of Pokémon evolve. It makes delicious tea.
+#-------------------------------
+[MASTERPIECETEACUP]
+Name = Masterpiece Teacup
+NamePlural = Masterpiece Teacups
+Pocket = 10
+Price = 0
+SellPrice = 9500
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_80
+Description = A peculiar chipped teacup that can make a certain species of Pokémon evolve. It makes delicious tea.
+#-------------------------------
+[METALALLOY]
+Name = Metal Alloy
+NamePlural = Metal Alloys
+PortionName = hunk of Metal Alloy
+PortionNamePlural = hunks of Metal Alloy
+Pocket = 10
+Price = 0
+SellPrice = 1500
+BPPrice = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar metal that can make certain species of Pokémon evolve. It is composed of many layers.
+#-------------------------------
+[LOVESTONE]
+Name = Love Stone
+NamePlural = Love Stones
+Pocket = 10
+Price = 0
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A peculiar stone that makes certain species of Pokémon evolve.
+

@@ -1,0 +1,7 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[HERO]
+Name = Pokémon Trainer
+Gender = Unknown
+BaseMoney = 60
+SkillLevel = 100

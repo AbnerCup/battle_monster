@@ -1,0 +1,156 @@
+# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[NORMAL]
+Name = Normal
+IconPosition = 0
+Weaknesses = FIGHTING
+Immunities = GHOST,STELLAR
+#-------------------------------
+[FIGHTING]
+Name = Fighting
+IconPosition = 1
+Weaknesses = FLYING,PSYCHIC,FAIRY,STELLAR
+Resistances = ROCK,BUG,DARK,WOOD,POISON
+#-------------------------------
+[FLYING]
+Name = Flying
+IconPosition = 2
+Weaknesses = ROCK,ELECTRIC,ICE,SOUND,STELLAR
+Resistances = FIGHTING,BUG,GRASS
+Immunities = GROUND
+#-------------------------------
+[POISON]
+Name = Poison
+IconPosition = 3
+Weaknesses = GROUND,PSYCHIC,WOOD,STELLAR
+Resistances = FIGHTING,POISON,BUG,GRASS,FAIRY
+#-------------------------------
+[GROUND]
+Name = Ground
+IconPosition = 4
+Weaknesses = WATER,GRASS,ICE,WOOD,STELLAR
+Resistances = POISON,ROCK
+Immunities = ELECTRIC,SOUND
+#-------------------------------
+[ROCK]
+Name = Rock
+IconPosition = 5
+Weaknesses = FIGHTING,GROUND,STEEL,WATER,GRASS,WOOD,STELLAR
+Resistances = NORMAL,FLYING,POISON,FIRE
+Immunities = SOUND
+#-------------------------------
+[BUG]
+Name = Bug
+IconPosition = 6
+Weaknesses = FLYING,ROCK,FIRE,STELLAR
+Resistances = FIGHTING,GROUND,GRASS,SOUND
+Immunities = WOOD
+#-------------------------------
+[GHOST]
+Name = Ghost
+IconPosition = 7
+Weaknesses = GHOST,DARK,WOOD,STELLAR
+Resistances = POISON,BUG
+Immunities = NORMAL,FIGHTING
+#-------------------------------
+[STEEL]
+Name = Steel
+IconPosition = 8
+Weaknesses = FIGHTING,GROUND,FIRE,STELLAR
+Resistances = NORMAL,FLYING,ROCK,BUG,STEEL,GRASS,PSYCHIC,ICE,DRAGON,FAIRY,SOUND
+Immunities = POISON,WOOD
+#-------------------------------
+[QMARKS]
+Name = ???
+IconPosition = 9
+IsPseudoType = true
+#-------------------------------
+[FIRE]
+Name = Fire
+IconPosition = 10
+IsSpecialType = true
+Weaknesses = GROUND,ROCK,WATER,STELLAR
+Resistances = BUG,STEEL,FIRE,GRASS,ICE,FAIRY
+Immunities = WOOD
+#-------------------------------
+[WATER]
+Name = Water
+IconPosition = 11
+IsSpecialType = true
+Weaknesses = GRASS,ELECTRIC,SOUND,WOOD,STELLAR
+Resistances = STEEL,FIRE,WATER,ICE
+#-------------------------------
+[GRASS]
+Name = Grass
+IconPosition = 12
+IsSpecialType = true
+Weaknesses = FLYING,POISON,BUG,FIRE,ICE,STELLAR
+Resistances = GROUND,WATER,GRASS,ELECTRIC,WOOD
+#-------------------------------
+[ELECTRIC]
+Name = Electric
+IconPosition = 13
+IsSpecialType = true
+Weaknesses = GROUND,WOOD,STELLAR
+Resistances = FLYING,STEEL,ELECTRIC,SOUND
+#-------------------------------
+[PSYCHIC]
+Name = Psychic
+IconPosition = 14
+IsSpecialType = true
+Weaknesses = BUG,GHOST,DARK,SOUND,STELLAR
+Resistances = FIGHTING,PSYCHIC
+#-------------------------------
+[ICE]
+Name = Ice
+IconPosition = 15
+IsSpecialType = true
+Weaknesses = FIGHTING,ROCK,STEEL,FIRE,STELLAR
+Resistances = ICE,SOUND,WOOD
+#-------------------------------
+[DRAGON]
+Name = Dragon
+IconPosition = 16
+IsSpecialType = true
+Weaknesses = ICE,DRAGON,FAIRY
+Resistances = FIRE,WATER,GRASS,ELECTRIC,WOOD
+Immunities = SOUND,STELLAR
+#-------------------------------
+[DARK]
+Name = Dark
+IconPosition = 17
+IsSpecialType = true
+Weaknesses = FIGHTING,BUG,FAIRY,WOOD,STELLAR
+Resistances = GHOST,DARK
+Immunities = PSYCHIC
+#-------------------------------
+[FAIRY]
+Name = Fairy
+IconPosition = 18
+IsSpecialType = true
+Weaknesses = POISON,STEEL,SOUND,STELLAR
+Resistances = FIGHTING,BUG,DARK
+Immunities = DRAGON,WOOD
+#-------------------------------
+[SOUND]
+Name = Sound
+IconPosition = 19
+IsSpecialType = true
+Weaknesses = ROCK,ELECTRIC,BUG
+Resistances = FIGHTING,FLYING,NORMAL,GRASS,FAIRY,STEEL
+Immunities = GROUND,GHOST,POISON,WOOD
+#-------------------------------
+[WOOD]
+Name = Wood
+IconPosition = 20
+Weaknesses = FIRE,ELECTRIC,FIGHTING,STEEL,STELLAR
+Resistances = GROUND,ROCK,NORMAL,DARK,GHOST,SOUND,WOOD
+Immunities = FAIRY,WATER,PSYCHIC
+#-------------------------------
+[STELLAR]
+Name = Stellar
+IconPosition = 21
+IsSpecialType = true
+Weaknesses = STELLAR,DRAGON,SOUND
+Resistances = FIGHTING,FLYING,POISON,GROUND,ROCK,BUG,GHOST,STEEL,FIRE,WATER,GRASS,ELECTRIC,PSYCHIC,ICE,DARK,WOOD
+Immunities = FAIRY,NORMAL

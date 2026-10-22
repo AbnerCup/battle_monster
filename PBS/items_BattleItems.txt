@@ -1,0 +1,359 @@
+﻿#===============================================================================
+# BattleItems
+# Auto-organized by item type.
+#===============================================================================
+
+#-------------------------------
+[XATTACK]
+Name = X Attack
+NamePlural = X Attacks
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = An item that sharply boosts the Attack stat of a Pokémon while it remains in battle.
+#-------------------------------
+[XATTACK2]
+Name = X Attack 2
+NamePlural = X Attack 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It sharply raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XATTACK3]
+Name = X Attack 3
+NamePlural = X Attack 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It drastically raises the Attack stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XATTACK6]
+Name = X Attack 6
+NamePlural = X Attack 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It raises the Attack stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XDEFENSE]
+Name = X Defense
+NamePlural = X Defenses
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = An item that sharply boosts the Defense of a Pokémon while it remains in battle.
+#-------------------------------
+[XDEFENSE2]
+Name = X Defense 2
+NamePlural = X Defense 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It sharply raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XDEFENSE3]
+Name = X Defense 3
+NamePlural = X Defense 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It drastically raises the Defense stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XDEFENSE6]
+Name = X Defense 6
+NamePlural = X Defense 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It raises the Defense stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPATK]
+Name = X Sp. Atk
+NamePlural = X Sp. Atks
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = An item that sharply boosts the Sp. Atk stat of a Pokémon while it remains in battle.
+#-------------------------------
+[XSPATK2]
+Name = X Sp. Atk 2
+NamePlural = X Sp. Atk 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It sharply raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPATK3]
+Name = X Sp. Atk 3
+NamePlural = X Sp. Atk 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It drastically raises the Sp. Atk stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPATK6]
+Name = X Sp. Atk 6
+NamePlural = X Sp. Atk 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It raises the Sp. Atk stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPDEF]
+Name = X Sp. Def
+NamePlural = X Sp. Defs
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = An item that sharply boosts the Sp. Def stat of a Pokémon while it remains in battle.
+#-------------------------------
+[XSPDEF2]
+Name = X Sp. Def 2
+NamePlural = X Sp. Def 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It sharply raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPDEF3]
+Name = X Sp. Def 3
+NamePlural = X Sp. Def 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It drastically raises the Sp. Def stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPDEF6]
+Name = X Sp. Def 6
+NamePlural = X Sp. Def 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It raises the Sp. Def stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPEED]
+Name = X Speed
+NamePlural = X Speeds
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = An item that sharply boosts the Speed stat of a Pokémon while it remains in battle.
+#-------------------------------
+[XSPEED2]
+Name = X Speed 2
+NamePlural = X Speed 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It sharply raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPEED3]
+Name = X Speed 3
+NamePlural = X Speed 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It drastically raises the Speed stat of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XSPEED6]
+Name = X Speed 6
+NamePlural = X Speed 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It raises the Speed stat of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XACCURACY]
+Name = X Accuracy
+NamePlural = X Accuracies
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = An item that sharply boosts the accuracy of a Pokémon while it remains in battle.
+#-------------------------------
+[XACCURACY2]
+Name = X Accuracy 2
+NamePlural = X Accuracy 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It sharply raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XACCURACY3]
+Name = X Accuracy 3
+NamePlural = X Accuracy 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It drastically raises the accuracy of a Pokémon in battle. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[XACCURACY6]
+Name = X Accuracy 6
+NamePlural = X Accuracy 6s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It raises the accuracy of a Pokémon in battle immensely. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[MAXMUSHROOMS]
+Name = Max Mushrooms
+NamePlural = Max Mushrooms
+PortionName = cluster of Max Mushrooms
+PortionNamePlural = clusters of Max Mushrooms
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = Mushrooms that boost all stats of a Pokémon during battle.
+#-------------------------------
+[DIREHIT]
+Name = Dire Hit
+NamePlural = Dire Hits
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = An item that raises the critical-hit ratio greatly. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[DIREHIT2]
+Name = Dire Hit 2
+NamePlural = Dire Hit 2s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It sharply raises the critical-hit ratio. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[DIREHIT3]
+Name = Dire Hit 3
+NamePlural = Dire Hit 3s
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Description = It greatly raises the critical-hit ratio. It wears off if the Pokémon is withdrawn.
+#-------------------------------
+[GUARDSPEC]
+Name = Guard Spec.
+NamePlural = Guard Specs.
+Pocket = 7
+Price = 0
+BattleUse = Direct
+Flags = Fling_30
+Description = An item that prevents stat reduction among the Trainer's party Pokémon for five turns after use.
+#-------------------------------
+[RESETURGE]
+Name = Reset Urge
+NamePlural = Reset Urges
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = When used, it restores any stat changes of an ally Pokémon.
+#-------------------------------
+[ABILITYURGE]
+Name = Ability Urge
+NamePlural = Ability Urges
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = When used, it activates the Ability of an ally Pokémon.
+#-------------------------------
+[ITEMURGE]
+Name = Item Urge
+NamePlural = Item Urges
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = When used, it causes an ally Pokémon to use its held item.
+#-------------------------------
+[ITEMDROP]
+Name = Item Drop
+NamePlural = Item Drops
+Pocket = 7
+Price = 0
+Flags = Fling_30
+Description = When used, it causes an ally Pokémon to drop a held item.
+#-------------------------------
+[BLUEFLUTE]
+Name = Blue Flute
+NamePlural = Blue Flutes
+Pocket = 7
+Price = 0
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Consumable = false
+Description = A blue flute made from blown glass. Its melody awakens a single Pokémon from sleep.
+#-------------------------------
+[YELLOWFLUTE]
+Name = Yellow Flute
+NamePlural = Yellow Flutes
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Consumable = false
+Description = A yellow flute made from blown glass. Its melody snaps a single Pokémon out of confusion.
+#-------------------------------
+[REDFLUTE]
+Name = Red Flute
+NamePlural = Red Flutes
+Pocket = 7
+Price = 0
+BattleUse = OnBattler
+Flags = Fling_30
+Consumable = false
+Description = A red flute made from blown glass. Its melody snaps a single Pokémon out of infatuation.
+#-------------------------------
+[POKEDOLL]
+Name = Poké Doll
+NamePlural = Poké Dolls
+Pocket = 7
+Price = 0
+BattleUse = Direct
+Flags = Fling_30
+Description = A doll that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
+#-------------------------------
+[FLUFFYTAIL]
+Name = Fluffy Tail
+NamePlural = Fluffy Tails
+Pocket = 7
+Price = 0
+BattleUse = Direct
+Flags = Fling_30
+Description = An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
+#-------------------------------
+[POKETOY]
+Name = Poké Toy
+NamePlural = Poké Toys
+Pocket = 7
+Price = 0
+BattleUse = Direct
+Flags = Fling_30
+Description = An item that attracts Pokémon. Use it to flee from any battle with a wild Pokémon.
+

@@ -1,0 +1,86 @@
+# Apricorn data
+#-------------------------------
+[REDAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[YELLOWAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[BLUEAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[GREENAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[PINKAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[WHITEAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[BLACKAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[HISUIAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[ORANGEAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[LEMONAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[CYANAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[VIOLETAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[BROWNAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[GRAYAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 3,6
+#-------------------------------
+[IRONAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 2,5
+#-------------------------------
+[STEELAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 2,4
+#-------------------------------
+[PLATINUMAPRICORN]
+HoursPerStage = 1
+DryingPerHour = 1
+Yield = 1,3

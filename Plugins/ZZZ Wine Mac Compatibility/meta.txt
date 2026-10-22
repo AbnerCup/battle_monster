@@ -1,0 +1,4 @@
+Name       = ZZZ Wine Mac Compatibility
+Version    = 1.0
+Essentials = 21.1
+Credits    = ClessioTV, Codex

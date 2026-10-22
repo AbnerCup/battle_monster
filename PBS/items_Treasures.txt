@@ -1,0 +1,326 @@
+﻿#===============================================================================
+# Treasures
+# Auto-organized by item type.
+#===============================================================================
+
+#-------------------------------
+[REDSHARD]
+Name = Red Shard
+NamePlural = Red Shards
+Pocket = 12
+Price = 28
+Flags = Fling_30
+Description = A small red shard. It appears to be from some sort of implement made long ago.
+#-------------------------------
+[YELLOWSHARD]
+Name = Yellow Shard
+NamePlural = Yellow Shards
+Pocket = 12
+Price = 28
+Flags = Fling_30
+Description = A small yellow shard. It appears to be from some sort of implement made long ago.
+#-------------------------------
+[BLUESHARD]
+Name = Blue Shard
+NamePlural = Blue Shards
+Pocket = 12
+Price = 28
+Flags = Fling_30
+Description = A small blue shard. It appears to be from some sort of implement made long ago.
+#-------------------------------
+[GREENSHARD]
+Name = Green Shard
+NamePlural = Green Shards
+Pocket = 12
+Price = 28
+Flags = Fling_30
+Description = A small green shard. It appears to be from some sort of implement made long ago.
+#-------------------------------
+[TINYMUSHROOM]
+Name = Tiny Mushroom
+NamePlural = Tiny Mushrooms
+Pocket = 12
+Price = 45
+Flags = Fling_30
+Description = A small and rare mushroom. It is sought after by collectors.
+#-------------------------------
+[BIGMUSHROOM]
+Name = Big Mushroom
+NamePlural = Big Mushrooms
+Pocket = 12
+Price = 120
+Flags = Fling_30
+Description = A large and rare mushroom. It is sought after by collectors.
+#-------------------------------
+[BALMMUSHROOM]
+Name = Balm Mushroom
+NamePlural = Balm Mushrooms
+Pocket = 12
+Price = 260
+Flags = Fling_30
+Description = A rare mushroom which gives off a nice fragrance. A maniac will buy it for a high price.
+#-------------------------------
+[PEARL]
+Name = Pearl
+NamePlural = Pearls
+Pocket = 12
+Price = 70
+Flags = Fling_30
+Description = A somewhat-small pearl that sparkles in a pretty silver color. It can be sold cheaply to shops.
+#-------------------------------
+[BIGPEARL]
+Name = Big Pearl
+NamePlural = Big Pearls
+Pocket = 12
+Price = 220
+Flags = Fling_30
+Description = A quite-large pearl that sparkles in a pretty silver color. It can be sold at a high price to shops.
+#-------------------------------
+[PEARLSTRING]
+Name = Pearl String
+NamePlural = Pearl Strings
+Pocket = 12
+Price = 900
+Flags = Fling_30
+Description = Very large pearls that sparkle in a pretty silver color. A maniac will buy them for a high price.
+#-------------------------------
+[STARDUST]
+Name = Stardust
+NamePlural = Stardusts
+PortionName = bag of Stardust
+PortionNamePlural = bags of Stardust
+Pocket = 12
+Price = 180
+Flags = Fling_30
+Description = Lovely, red-colored sand with a loose, silky feel. It can be sold at a high price to shops.
+#-------------------------------
+[STARPIECE]
+Name = Star Piece
+NamePlural = Star Pieces
+Pocket = 12
+Price = 320
+Flags = Fling_30
+Description = A shard of a pretty gem that sparkles in a red color. It can be sold at a high price to shops.
+#-------------------------------
+[COMETSHARD]
+Name = Comet Shard
+NamePlural = Comet Shards
+Pocket = 12
+Price = 420
+Flags = Fling_30
+Description = A shard which fell to the ground when a comet approached. A maniac will buy it for a high price.
+#-------------------------------
+[NUGGET]
+Name = Nugget
+NamePlural = Nuggets
+Pocket = 12
+Price = 260
+Flags = Fling_30
+Description = A nugget of pure gold that gives off a lustrous gleam. It can be sold at a high price to shops.
+#-------------------------------
+[BIGNUGGET]
+Name = Big Nugget
+NamePlural = Big Nuggets
+Pocket = 12
+Price = 500
+Flags = Fling_30
+Description = A big nugget of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.
+#-------------------------------
+[HEARTSCALE]
+Name = Heart Scale
+NamePlural = Heart Scales
+Pocket = 12
+Price = 70
+Flags = Fling_30
+Description = A pretty, heart-shaped scale that is extremely rare. It glows faintly in the colors of the rainbow.
+#-------------------------------
+[SLOWPOKETAIL]
+Name = Slowpoke Tail
+NamePlural = Slowpoke Tails
+Pocket = 12
+Price = 0
+Description = A very tasty tail of something. It can be sold at a high price to shops.
+#-------------------------------
+[RAREBONE]
+Name = Rare Bone
+NamePlural = Rare Bones
+Pocket = 12
+Price = 180
+Flags = Fling_100
+Description = A bone that is extremely valuable for Pokémon archaeology. It can be sold for a high price to shops.
+#-------------------------------
+[RELICCOPPER]
+Name = Relic Copper
+NamePlural = Relic Coppers
+PortionName = Relic Copper coin
+PortionNamePlural = Relic Copper coins
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A copper coin used in a civilization about 3,000 years ago.
+#-------------------------------
+[RELICSILVER]
+Name = Relic Silver
+NamePlural = Relic Silvers
+PortionName = Relic Silver coin
+PortionNamePlural = Relic Silver coins
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A silver coin used in a civilization about 3,000 years ago.
+#-------------------------------
+[RELICGOLD]
+Name = Relic Gold
+NamePlural = Relic Golds
+PortionName = Relic Gold coin
+PortionNamePlural = Relic Gold coins
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A gold coin used in a civilization about 3,000 years ago.
+#-------------------------------
+[RELICVASE]
+Name = Relic Vase
+NamePlural = Relic Vases
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A vase made in a civilization about 3,000 years ago. Exchanged in Diamatown for rewards.
+#-------------------------------
+[RELICBAND]
+Name = Relic Band
+NamePlural = Relic Bands
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A bracelet made in a civilization about 3,000 years ago. Exchanged in Diamatown for rewards.
+#-------------------------------
+[RELICSTATUE]
+Name = Relic Statue
+NamePlural = Relic Statues
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A stone figure made in a civilization about 3,000 years ago. Exchanged in Diamatown for rewards.
+#-------------------------------
+[RELICCROWN]
+Name = Relic Crown
+NamePlural = Relic Crowns
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A crown made in a civilization about 3,000 years ago. Exchanged with Cedric for rewards.
+#-------------------------------
+[SHOALSALT]
+Name = Shoal Salt
+NamePlural = Shoal Salts
+PortionName = pile of Shoal Salt
+PortionNamePlural = piles of Shoal Salt
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = Pure salt that can be discovered deep inside the Shoal Cave. A maniac will buy it for a high price.
+#-------------------------------
+[SHOALSHELL]
+Name = Shoal Shell
+NamePlural = Shoal Shells
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A pretty seashell that can be found deep inside the Shoal Cave. A maniac will buy it for a high price.
+#-------------------------------
+[REDSPHERES]
+Name = Red Sphere S
+NamePlural = Red Spheres S
+Pocket = 12
+Price = 18
+Flags = Fling_30
+Description = A small red sphere that glows like fire.
+#-------------------------------
+[BLUESPHERES]
+Name = Blue Sphere S
+NamePlural = Blue Spheres S
+Pocket = 12
+Price = 18
+Flags = Fling_30
+Description = A small blue sphere that glistens like ice.
+#-------------------------------
+[GREENSPHERES]
+Name = Green Sphere S
+NamePlural = Green Spheres S
+Pocket = 12
+Price = 18
+Flags = Fling_30
+Description = A small green sphere that glows like sunlit leaves.
+#-------------------------------
+[PRISMSPHERES]
+Name = Prism Sphere S
+NamePlural = Prism Spheres S
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A small sphere that's clear enough to see through.
+#-------------------------------
+[PALESPHERES]
+Name = Pale Sphere S
+NamePlural = Pale Spheres S
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A small sphere that glows in seven colors.
+#-------------------------------
+[REDSPHEREL]
+Name = Red Sphere L
+NamePlural = Red Spheres L
+Pocket = 12
+Price = 42
+Flags = Fling_30
+Description = A large red sphere that glows like fire.
+#-------------------------------
+[BLUESPHEREL]
+Name = Blue Sphere L
+NamePlural = Blue Spheres L
+Pocket = 12
+Price = 42
+Flags = Fling_30
+Description = A large blue sphere that glistens like ice.
+#-------------------------------
+[GREENSPHEREL]
+Name = Green Sphere L
+NamePlural = Green Spheres L
+Pocket = 12
+Price = 42
+Flags = Fling_30
+Description = A large green sphere that glows like sunlit leaves.
+#-------------------------------
+[PRISMSPHEREL]
+Name = Prism Sphere L
+NamePlural = Prism Spheres L
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A large sphere that's clear enough to see through.
+#-------------------------------
+[PALESPHEREL]
+Name = Pale Sphere L
+NamePlural = Pale Spheres L
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = A large sphere that glows in seven colors.
+#-------------------------------
+[FRAGMENT]
+Name = Fragment
+NamePlural = Fragments
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = Can be exchanged for rewards with the right person.
+#-------------------------------
+[DARKFRAGMENT]
+Name = Dark Fragment
+NamePlural = Dark Fragments
+Pocket = 12
+Price = 0
+Flags = Fling_30
+Description = Can be used to gain new knowledge from the right person.

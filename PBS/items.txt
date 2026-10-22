@@ -1,0 +1,12 @@
+﻿# Item PBS index.
+# Entries are split by item type into items_*.txt files in this folder.
+# TMs are generated from moves.txt in alphabetical move-name order.
+# Backup of the previous 
+#-------------------------------
+[REDAPRICORN]
+Name = Red Apricorn
+NamePlural = Red Apricorns
+Pocket = 9
+Price = 24
+Flags = Apricorn
+Description = A red Apricorn. It assails your nostrils.

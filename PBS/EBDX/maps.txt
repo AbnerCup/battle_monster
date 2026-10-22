@@ -1,0 +1,220 @@
+#-------------------------------
+[005] # Town
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[021] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[022] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[023] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[024] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[025] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[026] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[027] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[028] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[029] # Exploration - Zone 0
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[030] # Exploration - Zone 1
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[031] # Exploration - Zone 1
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[032] # Exploration - Zone 1
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[033] # Exploration - Zone 1
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[034] # Exploration - Zone 1
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[035] # Exploration - Zone 1
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[039] # Exploration - Zone 2
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[040] # Exploration - Zone 2
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[041] # Exploration - Zone 2
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[042] # Exploration - Zone 2
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[043] # Exploration - Zone 2
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER
+#-------------------------------
+[044] # Exploration - Zone 2
+SPRING
+  BattleEnv         = SPRING
+SUMMER
+  BattleEnv         = SUMMER
+AUTUMN
+  BattleEnv         = AUTUMN
+WINTER
+  BattleEnv         = WINTER

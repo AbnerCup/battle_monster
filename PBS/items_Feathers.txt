@@ -1,0 +1,86 @@
+﻿#===============================================================================
+# Feathers
+# Auto-organized by item type.
+#===============================================================================
+
+#-------------------------------
+[PRETTYFEATHER]
+Name = Pretty Feather
+NamePlural = Pretty Feathers
+Pocket = 12
+Price = 20
+Flags = Fling_20
+Description = Though this feather is beautiful, it's just a regular feather and has no effect on Pokémon.
+#-------------------------------
+[HEALTHFEATHER]
+Name = Health Feather
+NamePlural = Health Feathers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item for use on a Pokémon. It increases the base HP of a single Pokémon.
+#-------------------------------
+[MUSCLEFEATHER]
+Name = Muscle Feather
+NamePlural = Muscle Feathers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item for use on a Pokémon. It increases the base Attack stat of a single Pokémon.
+#-------------------------------
+[RESISTFEATHER]
+Name = Resist Feather
+NamePlural = Resist Feathers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item for use on a Pokémon. It the base Defense stat of a single Pokémon.
+#-------------------------------
+[GENIUSFEATHER]
+Name = Genius Feather
+NamePlural = Genius Feathers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item for use on a Pokémon. It increases the base Sp. Atk stat of a single Pokémon.
+#-------------------------------
+[CLEVERFEATHER]
+Name = Clever Feather
+NamePlural = Clever Feathers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item for use on a Pokémon. It increases the base Sp. Def stat of a single Pokémon.
+#-------------------------------
+[SWIFTFEATHER]
+Name = Swift Feather
+NamePlural = Swift Feathers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item for use on a Pokémon. It increases the base Speed stat of a single Pokémon.
+#-------------------------------
+[FAIRYFEATHER]
+Name = Fairy Feather
+NamePlural = Fairy Feathers
+Pocket = 1
+Price = 0
+SellPrice = 750
+Flags = Fling_20
+Description = An item to be held by a Pokémon. It boosts the power of the holder's Fairy-type moves.
+#-------------------------------
+[FORGETFEATHER]
+Name = Forget Feather
+NamePlural = Forget Feathers
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+Flags = KeyItem
+Description = An item for use on a Pokémon. It reset the base stat of a single Pokémon.
+

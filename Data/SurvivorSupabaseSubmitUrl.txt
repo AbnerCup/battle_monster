@@ -1,0 +1,1 @@
+https://kasajwuwllhfurfbhlrc.supabase.co/functions/v1/dynamic-service
