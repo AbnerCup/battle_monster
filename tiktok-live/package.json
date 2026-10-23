@@ -1,0 +1,19 @@
+{
+  "name": "vortex-rival-tiktok-live",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MVP del juego de batalla para TikTok LIVE, con los recursos del repo battle_monster",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sim": "node server.js --sim"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "tiktok-live-connector": "2.5.0",
+    "ws": "8.22.0"
+  }
+}

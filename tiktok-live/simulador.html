@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador · Vortex Rival</title>
+  <style>
+    :root {
+      --bosque: #10291B;
+      --bosque2: #1B4630;
+      --hoja: #A8E063;
+      --sol: #FFC93C;
+      --cielo: #4CC3FF;
+      --baya: #FF4D6D;
+      --nube: #F7FBF4;
+      --musgo: #A9C4B0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bosque);
+      color: var(--nube);
+      font: 600 16px/1.45 "Segoe UI", system-ui, sans-serif;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 28px;
+    }
+    #estado {
+      margin: 0 0 20px;
+      color: var(--musgo);
+    }
+    #estado.mal { color: var(--baya); }
+    section {
+      background: var(--bosque2);
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin-bottom: 14px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 17px;
+      color: var(--hoja);
+    }
+    .fila {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    button, select, input {
+      font: inherit;
+      border-radius: 10px;
+      border: 2px solid transparent;
+    }
+    button {
+      background: #275C3F;
+      color: var(--nube);
+      padding: 9px 14px;
+      cursor: pointer;
+    }
+    button:hover { background: #2F6E4B; }
+    button:focus-visible, select:focus-visible, input:focus-visible {
+      outline: none;
+      border-color: var(--sol);
+    }
+    button.regalo small { color: var(--sol); }
+    button.activo { background: var(--sol); color: var(--bosque); }
+    select, input {
+      background: var(--bosque);
+      color: var(--nube);
+      padding: 8px 10px;
+      border-color: #2F6E4B;
+    }
+    input { flex: 1; min-width: 180px; }
+    #registro {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--musgo);
+      font-weight: 500;
+    }
+    .nota {
+      margin: 8px 0 0;
+      color: var(--musgo);
+      font-weight: 500;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Simulador</h1>
+    <p id="estado">Conectando con el servidor…</p>
+
+    <section>
+      <h2>Espectador</h2>
+      <div class="fila">
+        <select id="espectador" aria-label="Espectador que hace la acción"></select>
+        <button id="nuevo">Nuevo espectador</button>
+      </div>
+      <p class="nota">Las acciones salen de este espectador. Con «Al azar» cada clic usa uno distinto.</p>
+    </section>
+
+    <section>
+      <h2>Likes</h2>
+      <div class="fila">
+        <button data-likes="1">1 like</button>
+        <button data-likes="5">5 likes</button>
+        <button data-likes="25">25 likes</button>
+      </div>
+      <p class="nota">Con 25 taps se entra a la arena. En batalla, los likes curan al Pokémon de quien los da.</p>
+    </section>
+
+    <section>
+      <h2>Regalos</h2>
+      <div class="fila" id="regalos"></div>
+      <p class="nota">En la sala, un regalo captura un Pokémon según su valor. En batalla, da escudo, ataque o potencia.</p>
+    </section>
+
+    <section>
+      <h2>Chat</h2>
+      <div class="fila">
+        <input id="texto" placeholder="Escribe un comentario" aria-label="Comentario">
+        <button id="enviarTexto">Enviar</button>
+        <button data-chat="!mochila">!mochila</button>
+        <button data-chat="!jugar">!jugar</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Atajos</h2>
+      <div class="fila">
+        <button id="meter8">Meter 8 espectadores</button>
+        <button id="auto" aria-pressed="false">Actividad automática</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Últimas acciones</h2>
+      <ol id="registro" reversed></ol>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      'use strict';
+      var NOMBRES = ['Ana', 'Luis', 'Valeria', 'Diego', 'Camila', 'Mateo', 'Sofía', 'Joaquín', 'Lucía', 'Thiago', 'Mía', 'Bruno', 'Renata', 'Gael', 'Abril', 'Santi'];
+      var REGALOS = [
+        { nombre: 'Rosa', diamantes: 1 }, { nombre: 'Corazón con dedos', diamantes: 5 },
+        { nombre: 'Donut', diamantes: 30 }, { nombre: 'Gorra', diamantes: 99 },
+        { nombre: 'Confeti', diamantes: 100 }, { nombre: 'Gafas de sol', diamantes: 199 },
+        { nombre: 'Pistola de dinero', diamantes: 500 }, { nombre: 'León', diamantes: 29999 }
+      ];
+      var espectadores = NOMBRES.slice(0, 10);
+      var selector = document.getElementById('espectador');
+      var estado = document.getElementById('estado');
+      var registro = document.getElementById('registro');
+      var ws = null;
+
+      function pintarSelector() {
+        var actual = selector.value;
+        selector.innerHTML = '';
+        var azar = document.createElement('option');
+        azar.value = '';
+        azar.textContent = 'Al azar';
+        selector.appendChild(azar);
+        espectadores.forEach(function (n) {
+          var o = document.createElement('option');
+          o.value = n;
+          o.textContent = n;
+          selector.appendChild(o);
+        });
+        selector.value = actual;
+      }
+      function quien() {
+        return selector.value || espectadores[Math.floor(Math.random() * espectadores.length)];
+      }
+      function anotar(texto) {
+        var li = document.createElement('li');
+        li.textContent = texto;
+        registro.insertBefore(li, registro.firstChild);
+        while (registro.children.length > 8) registro.removeChild(registro.lastChild);
+      }
+      function mandar(m, descripcion) {
+        if (!ws || ws.readyState !== 1) { anotar('No se envió: el servidor no está conectado'); return; }
+        ws.send(JSON.stringify(m));
+        if (descripcion) anotar(descripcion);
+      }
+      function like(nombre, cantidad, callado) {
+        mandar({ t: 'sim', tipo: 'like', usuario: { nombre: nombre }, cantidad: cantidad }, callado ? null : nombre + ' dio ' + cantidad + (cantidad === 1 ? ' like' : ' likes'));
+      }
+      function regalo(nombre, r, callado) {
+        mandar({ t: 'sim', tipo: 'regalo', usuario: { nombre: nombre }, regalo: r, cantidad: 1 }, callado ? null : nombre + ' regaló ' + r.nombre + ' (' + r.diamantes + ' 💎)');
+      }
+      function chat(nombre, texto, callado) {
+        mandar({ t: 'sim', tipo: 'chat', usuario: { nombre: nombre }, texto: texto }, callado ? null : nombre + ': ' + texto);
+      }
+
+      function conectar() {
+        ws = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/ws?rol=simulador');
+        ws.onopen = function () { estado.textContent = 'Conectado. Esperando datos del servidor…'; estado.className = ''; };
+        ws.onclose = function () {
+          estado.textContent = 'Sin conexión con el servidor. ¿Está abierta la ventana de «npm start»?';
+          estado.className = 'mal';
+          setTimeout(conectar, 1500);
+        };
+        ws.onmessage = function (m) {
+          var d;
+          try { d = JSON.parse(m.data); } catch (e) { return; }
+          if (d.t !== 'estado') return;
+          var juegos = d.juegos === 1 ? '1 ventana del juego abierta' : d.juegos + ' ventanas del juego abiertas';
+          var modo = d.modo === 'simulacion' ? 'Modo simulación' : (d.tiktok && d.tiktok.detalle) || 'Modo TikTok';
+          estado.textContent = modo + '. ' + juegos + '.';
+          estado.className = d.juegos ? '' : 'mal';
+          if (!d.juegos) estado.textContent += ' Abre el juego en OBS o en otra pestaña.';
+        };
+      }
+
+      pintarSelector();
+      var cajaRegalos = document.getElementById('regalos');
+      REGALOS.forEach(function (r) {
+        var b = document.createElement('button');
+        b.className = 'regalo';
+        b.innerHTML = '';
+        b.appendChild(document.createTextNode(r.nombre + ' '));
+        var s = document.createElement('small');
+        s.textContent = r.diamantes + ' 💎';
+        b.appendChild(s);
+        b.addEventListener('click', function () { regalo(quien(), r); });
+        cajaRegalos.appendChild(b);
+      });
+      document.querySelectorAll('[data-likes]').forEach(function (b) {
+        b.addEventListener('click', function () { like(quien(), Number(b.dataset.likes)); });
+      });
+      document.querySelectorAll('[data-chat]').forEach(function (b) {
+        b.addEventListener('click', function () { chat(quien(), b.dataset.chat); });
+      });
+      var caja = document.getElementById('texto');
+      function enviarTexto() {
+        var texto = caja.value.trim();
+        if (!texto) return;
+        chat(quien(), texto);
+        caja.value = '';
+      }
+      document.getElementById('enviarTexto').addEventListener('click', enviarTexto);
+      caja.addEventListener('keydown', function (e) { if (e.key === 'Enter') enviarTexto(); });
+      document.getElementById('nuevo').addEventListener('click', function () {
+        var base = NOMBRES[Math.floor(Math.random() * NOMBRES.length)];
+        var nombre = base + '_' + Math.floor(10 + Math.random() * 89);
+        espectadores.push(nombre);
+        pintarSelector();
+        selector.value = nombre;
+        anotar('Llegó ' + nombre);
+      });
+      document.getElementById('meter8').addEventListener('click', function () {
+        var mezcla = espectadores.slice().sort(function () { return Math.random() - 0.5; }).slice(0, 8);
+        mezcla.forEach(function (n, i) { setTimeout(function () { like(n, 25, true); }, i * 150); });
+        anotar('Entraron ' + mezcla.join(', '));
+      });
+
+      var temporizador = null;
+      var botonAuto = document.getElementById('auto');
+      botonAuto.addEventListener('click', function () {
+        if (temporizador) {
+          clearInterval(temporizador);
+          temporizador = null;
+          botonAuto.classList.remove('activo');
+          botonAuto.setAttribute('aria-pressed', 'false');
+          anotar('Actividad automática detenida');
+          return;
+        }
+        botonAuto.classList.add('activo');
+        botonAuto.setAttribute('aria-pressed', 'true');
+        anotar('Actividad automática en marcha');
+        temporizador = setInterval(function () {
+          var n = espectadores[Math.floor(Math.random() * espectadores.length)], r = Math.random();
+          if (r < 0.72) like(n, 1 + Math.floor(Math.random() * 12), true);
+          else if (r < 0.86) regalo(n, REGALOS[Math.floor(Math.pow(Math.random(), 2.2) * 7)], true);
+          else if (r < 0.94) chat(n, '!mochila', true);
+          else chat(n, '!jugar', true);
+        }, 350);
+      });
+      conectar();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "titulo": "Vortex Rival",
+  "servidor": { "host": "127.0.0.1", "puerto": 3000 },
+  "tiktok": { "usuario": "vortex_rival", "apiKeyEulerStream": "" },
+  "tikfinity": { "activo": true, "url": "ws://127.0.0.1:21213" },
+  "sala": {
+    "segundos": 40,
+    "minimoJugadores": 2,
+    "cupos": 20,
+    "likesParaEntrar": 25,
+    "rellenarConBotsHasta": 4,
+    "minutosInactividad": 15
+  },
+  "batalla": { "segundos": 45, "curacionPorLike": 3, "fondo": "Forest" },
+  "captura": {
+    "normal": { "desdeDiamantes": 30, "ejemplo": "Donut" },
+    "rara": { "desdeDiamantes": 100, "ejemplo": "Confeti" },
+    "especial": { "desdeDiamantes": 500, "ejemplo": "Pistola de dinero" }
+  },
+  "poderes": {
+    "escudo": { "desdeDiamantes": 1, "ejemplo": "Rosa", "segundos": 5 },
+    "ataque": { "desdeDiamantes": 30, "ejemplo": "Donut", "segundos": 8 },
+    "potencia": { "desdeDiamantes": 100, "ejemplo": "Confeti" }
+  },
+  "regalosPorNombre": {},
+  "rarezaPorTotalDeStats": { "raraDesde": 430, "especialDesde": 535 },
+  "exp": { "participar": 10, "porDerrota": 15, "ganar": 60 },
+  "comandos": { "mochila": "!mochila", "jugar": "!jugar" },
+  "sonido": { "activado": true, "volumen": 0.5 }
+}
