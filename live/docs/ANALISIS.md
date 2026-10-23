@@ -77,6 +77,7 @@ TikTok LIVE ─► TikFinity Desktop ─ ws://127.0.0.1:21213 ─┬─► live/
 | Pocos espectadores | Esperaba a 2 jugadores | Basta 1: bots rivales completan hasta 8 luchadores (no se guardan ni ganan EXP) |
 | Variocolor | — | 2 % (común), 3 % (raro), 5 % (especial), con animación y sonido propios |
 | Game.exe | Modo torneo sin servidor | Puente TikFinity → TCP 8081 con niveles por regalo y fotos de perfil |
+| Conexión a TikFinity | Conectado o desconectado | Distingue app abierta sin actividad, LIVE con eventos y LIVE terminado; reconexión automática si TikFinity se abre después o se reinicia |
 
 ## 4. Optimización
 
@@ -105,14 +106,15 @@ TikTok LIVE ─► TikFinity Desktop ─ ws://127.0.0.1:21213 ─┬─► live/
 
 ## 5. Verificación
 
-- 20 pruebas automáticas: normalizador y rachas de TikFinity, ciclo completo de sala → captura → batalla → resultado, ronda con bots, importador sobre el repositorio real (hojas válidas, rarezas, tabla de tipos, audio) y duración de batallas.
+- 22 pruebas automáticas: normalizador y rachas de TikFinity, conexión real por WebSocket contra un endpoint que imita a TikFinity (chat, racha de regalos, fin del LIVE y reconexión), ciclo completo de sala → captura → batalla → resultado, ronda con bots, importador sobre el repositorio real (hojas válidas, rarezas, tabla de tipos, audio) y duración de batallas.
+- Juego compilado abierto como en OBS (`?obs=1`) frente a ese endpoint simulado: se conecta solo, los espectadores aparecen en la sala con su Pokémon, `!mochila` responde, la racha de 5 rosas entra como un solo entrenamiento, el Donut abre la captura y, si el endpoint se cae, vuelve a conectarse.
 - Ronda completa en navegador sin interfaz con capturas de pantalla, sin errores de consola: sala, captura variocolor, entrenamiento con evolución, batalla con poderes, finalistas, campeón y regreso a la sala. También se probó el paquete Tuxemon.
 - Puente probado con TikFinity y Game.exe simulados: inscripción por like y por regalo (racha consolidada), niveles 1–4, cuenta regresiva, inicio de torneo, regalos en combate y reinicio.
 
 ## 6. Riesgos
 
-- **Propiedad intelectual**: nombres, arte, música y gritos de Pokémon, más sprites comunitarios cuya licencia hay que revisar. Sirve para uso propio en lives. Un producto para vender necesita criaturas propias o con licencia: el motor ya funciona por paquetes (`?pack=tuxemon` es el ejemplo).
-- **TikFinity no es oficial**: el formato de sus mensajes puede cambiar. Todo el ajuste está en `src/live/normalize.ts`.
+- **Propiedad intelectual**: nombres, arte, música y gritos de Pokémon, más sprites comunitarios cuya licencia hay que revisar. Un live con regalos ya es uso con fines de lucro, y Nintendo y The Pokémon Company han pedido retirar otros fan games. Un producto para clientes necesita criaturas propias o con licencia: el motor ya funciona por paquetes (`?pack=tuxemon` es el ejemplo).
+- **TikFinity no es oficial**: el formato de sus mensajes puede cambiar. Todo el ajuste está en `src/live/normalize.ts`. Su endpoint lo expone la app de escritorio para Windows, así que juego y TikFinity van en la misma PC.
 - **Puente de Game.exe**: falta probarlo con el ejecutable real. Si TikTok entrega fotos en WEBP, el juego muestra iniciales.
 
 ## 7. Próximos pasos

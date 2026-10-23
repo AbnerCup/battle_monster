@@ -29,7 +29,7 @@ El modo desarrollo queda en `http://localhost:5173/`. A la derecha está el pane
 2. En OBS: **Fuente → Navegador**, URL `http://localhost:4173/?obs=1`, ancho **1080**, alto **1920**. Marca **Controlar audio a través de OBS** para que se escuche la música.
 3. En TikTok LIVE Studio: añade la URL como fuente web si tu versión lo permite, o captura la ventana del navegador.
 
-Con `?obs=1` se oculta el panel y se conecta solo a TikFinity (`ws://127.0.0.1:21213/`). Otros parámetros de la URL:
+Con `?obs=1` se oculta el panel y el juego se conecta solo a TikFinity. Otros parámetros de la URL:
 
 | Parámetro | Efecto |
 |---|---|
@@ -38,6 +38,14 @@ Con `?obs=1` se oculta el panel y se conecta solo a TikFinity (`ws://127.0.0.1:2
 | `renderer=canvas` | Dibujo sin aceleración gráfica (PCs muy modestas) |
 | `tikfinity=ws://…` | Otra dirección de TikFinity |
 | `sim=autoplay` | Actividad simulada continua (demostraciones) |
+
+### Conexión con TikFinity
+
+El juego lee el live desde el endpoint WebSocket que expone TikFinity Desktop (su API de eventos): `ws://127.0.0.1:21213/`. TikFinity tiene que estar abierto en la misma PC con Windows y conectado al LIVE con tu @usuario.
+
+- Si TikFinity muestra otra dirección o puerto, pásala en la URL: `http://localhost:4173/?obs=1&tikfinity=ws://127.0.0.1:PUERTO/`. En el panel de pruebas también se puede cambiar y reconectar.
+- El panel indica el estado: *esperando eventos del LIVE* (TikFinity abierto, todavía sin actividad), *recibiendo eventos del LIVE* o *el LIVE terminó*. Si TikFinity se cierra o se reinicia, el juego vuelve a conectarse solo.
+- Se aceptan los dos formatos de mensaje que circulan (plano y anidado). Las rachas de regalos se cuentan una sola vez, con el total.
 
 La primera vez, revisa en el panel ("Ver JSON crudo de TikFinity") que lleguen nombre y foto de los espectadores. Si TikFinity usa otros nombres de campo, solo hay que tocar `src/live/normalize.ts`.
 
@@ -85,7 +93,7 @@ live/
   tools/         import-essentials.mjs (repo → paquete) y build_pack_tuxemon.py
   bridge/        puente TikFinity → Game.exe
   server/        servidor local + proxy de fotos de perfil
-  tests/         npm test (20 pruebas)
+  tests/         npm test (22 pruebas)
 ```
 
 ## Pruebas
@@ -98,4 +106,4 @@ npm test
 
 ## Licencias
 
-El paquete "essentials" usa nombres, arte, música y sonidos de Pokémon (© Nintendo / Creatures / GAME FREAK), además de sprites comunitarios estilo PMD cuya licencia también hay que revisar. Sirve para uso propio en tus lives. Un producto para vender necesita criaturas propias o con licencia comercial. Como el juego funciona por paquetes, basta con generar otro con el mismo formato. `?pack=tuxemon` muestra un ejemplo con criaturas de licencia libre (CC BY-SA 4.0).
+El paquete "essentials" usa nombres, arte, música y sonidos de Pokémon (© Nintendo / Creatures / GAME FREAK), además de sprites comunitarios estilo PMD cuya licencia también hay que revisar. Un live que recibe regalos ya es un uso con fines de lucro, y Nintendo y The Pokémon Company han pedido retirar otros fan games. Un producto para clientes necesita criaturas propias o con licencia comercial. Como el juego funciona por paquetes, basta con generar otro con el mismo formato. `?pack=tuxemon` muestra un ejemplo con criaturas de licencia libre (CC BY-SA 4.0).

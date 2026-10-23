@@ -170,7 +170,7 @@ export class DevPanel {
     const st = document.getElementById('tf-status');
     if (dot) dot.className = `dot ${s}`;
     const label = { disconnected: 'desconectado', connecting: 'conectando…', connected: 'conectado', error: 'error' }[s];
-    if (st) st.textContent = detail && s !== 'connected' ? `${label} · ${detail}` : label;
+    if (st) st.textContent = detail ? `${label} · ${detail}` : label;
   }
 
   private push(line: string) {

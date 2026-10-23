@@ -162,15 +162,27 @@ function onTikFinity(msg) {
 let retry = 0;
 function connect() {
   const ws = new WebSocket(TIKFINITY_URL);
+  let events = 0;
   ws.on('open', () => {
     retry = 0;
-    log(`Conectado a TikFinity (${TIKFINITY_URL}).`);
+    log(`Conectado a TikFinity (${TIKFINITY_URL}). Esperando eventos del LIVE…`);
   });
   ws.on('message', (raw) => {
+    let msg;
     try {
-      onTikFinity(JSON.parse(String(raw)));
+      msg = JSON.parse(String(raw));
     } catch {
-      /* mensaje no JSON */
+      return; // mensaje no JSON
+    }
+    if (String(msg?.event ?? '').toLowerCase() === 'streamend') {
+      events = 0;
+      return log('TikFinity avisa que el LIVE terminó.');
+    }
+    if (events++ === 0) log('Recibiendo eventos del LIVE.');
+    try {
+      onTikFinity(msg);
+    } catch (err) {
+      log('Evento de TikFinity no procesado:', err?.message ?? err);
     }
   });
   ws.on('close', () => {
